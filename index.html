@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://use.fontawesome.com/2398a953ef.js"></script>
+	<link href="http://fonts.googleapis.com/css?family=Delius:400|Pacifico:400" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="dist/css/style.min.css">
+	<title>Mi Portafolio</title>
+</head>
+<body>
+	<div class="container-fluid">
+		<header id="barraNav">
+			<div class="container">
+				<div class="col-md-2 navIzq">
+					<h3>Dani S.</h3>
+				</div>
+				<div class="col-md-2 navDer">
+					<p>Mi portafolio</p>
+				</div>
+				<div class="col-md-8 navDirigido">
+					<li><a href="#banner">Inicio</a></li>
+					<li><a href="#">·</a></li>
+					<li><a href="#acercaDeMi">Acerca de Mi</a></li>
+					<li><a href="#">.</a></li>
+					<li><a href="#skills">Skills</a></li>
+					<li><a href="#">·</a></li>
+					<li><a href="#misProyectos">Proyectos</a></li>
+					<li><a href="#">·</a></li>
+					<li><a href="#contactame">Contacto</a></li>
+				</div>
+			</div>
+		</header>
+		<a name="banner"></a>
+		<section id="banner">
+			<div>
+				<video src="src/videos/fondo-banner.mov" id="fondoBanner" autoplay="autoplay"></video>
+				<p class="text-right"></p>
+				<h1 class="text-center">Dani S.</h1>
+				<p class="text-center"><span>FrontEnd Developer</span></p>
+			</div>
+		</section>
+		<a name="acercaDeMi"></a>
+		<section id="acercaDeMi">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 div-h2">
+						<h2>Acerca de Mi</h2>
+					</div>
+				</div>
+				<div class="row contenido-acercaDeMi">
+					<div class="col-md-6" id="img-acercaDeMi">
+						<img src="dist/images/perfil.jpg" alt="Imagen de perfil">
+					</div>
+					<div class="col-md-6" id="txt-acercaDeMi">
+						<h3>Hola!</h3>
+						<p>Mi nombre es Daniela Santander, tengo 22 años y soy Front-end Developer graduada de Laboratoria.</p>
+						<p>Tengo un gran interés por la tecnología, el desarrollo web, la mecánica automotriz, leer y estar aprendiendo constantemente cosas nuevas. Si hay algo de lo que no sé, estoy dispuesta a aprenderlo.</p>
+						<p>Me gusta trabajar en equipo, participar en proyectos dentro de un grupo y aportar activamente para lograr cumplir con los objetivos con dedicación y muchas ganas.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<a name="skills" class="text-center"></a>
+		<section id="skills">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h2>Skills</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<table class="text-center">
+							<tr>
+								<td class="text-center col-md-1">
+									<div class="div-img">
+										<img src="dist/images/icono-html.png" alt="HTML5">
+									</div>
+								</td>
+								<td class="text-center col-md-1">
+									<div class="div-img">
+										<img src="dist/images/icono-css.png" alt="CSS3">
+									</div>
+								</td>
+								<td class="text-center col-md-1">
+									<div class="div-img">
+										<img src="dist/images/icono-bootstrap.png" alt="BOOTSTRAP">
+									</div>
+								</td>
+								<td class="text-center col-md-1">
+									<div class="div-img">
+										<img src="dist/images/icono-materialize.png" alt="MATERIALIZE">
+									</div>
+								</td>
+								<td class="text-center col-md-1">
+									<div class="div-img">
+										<img src="dist/images/icono-javascript.png" alt="JAVASCRIPT">
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td class="text-center col-md-1">
+									<div class="div-img">
+										<img src="dist/images/icono-jquery.png" alt="JQUERY">
+									</div>
+								</td>
+								<td class="text-center col-md-1">
+									<div class="div-img">
+										<img src="dist/images/icono-gulp.png" alt="GULP">
+									</div>
+								</td>
+								<td class="text-center col-md-1">
+									<div class="div-img">
+										<img src="dist/images/icono-sass.svg" alt="SASS">
+									</div>
+								</td>
+								<td class="text-center col-md-1">
+									<div class="div-img">
+										<img src="dist/images/icono-git.png" alt="GIT">
+									</div>
+								</td>
+								<td class="text-center col-md-1">
+									<div class="div-img">
+										<img src="dist/images/icono-github.png" alt="GITHUB">
+									</div>
+								</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+			</div>
+		</section>
+		<a name="misProyectos" class="text-center"></a>
+		<section id="misProyectos">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h2>Mis proyectos</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<div class="acordeonProyectos">
+							<ul>
+								<li>
+									<div>
+										<a href="http://daninisc.github.io/bicis-locas-jquery">
+											<h3>Bicis Locas</h3>
+											<p>Formulario con validación en jQuery.</p>
+										</a>
+									</div>
+								</li>
+								<li>
+									<div>
+										<a href="http://daninisc.github.io/bunny-love">
+											<h3>Bunny Love</h3>
+											<p>Página responsiva.</p>
+										</a>
+									</div>
+								</li>
+								<li>
+									<div>
+										<a href="http://daninisc.github.io/comunidad-sostenible">
+											<h3>Ecomunidad Sostenible</h3>
+											<p>Nav con enlaces directos a secciones.</p>
+										</a>
+									</div>
+								</li>
+								<li>
+									<div>
+										<a href="http://daninisc.github.io/danza-arte">
+											<h3>Danza Arte</h3>
+											<p>Página con enlaces a otras páginas.</p>
+										</a>
+									</div>
+								</li>
+								<li>
+									<div>
+										<a href="http://daninisc.github.io/coder-girl">
+											<h3>Coder Girl</h3>
+											<p>Página responsiva, nav con enlaces directos a secciones.</p>
+										</a>
+									</div>
+								</li>
+								<li>
+									<div>
+										<a href="http://daninisc.github.io/creamy-theme">
+											<h3>Creamy theme</h3>
+											<p>Página replicada, responsiva.</p>
+										</a>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<a name="contactame" class="text-center"></a>
+		<section id="contactame">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h2>Contáctame</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12 datosDeContacto">
+						<h3 class="nombre">Daniela Santander Castro</h3>
+						<p class="frontend">FrontEnd Developer</p>
+						<div class="iconosContacto">
+							<a href="mailto:dpsantandercastro@gmail.com" class="email"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+							<a href="https://github.com/daninisc" class="github"><i class="fa fa-github" aria-hidden="true"></i></a>
+							<a href="https://cl.linkedin.com/in/daniela-santander-castro-146463127" class="linkedin"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+							<a href="https://twitter.com/DaniSC__" class="twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+	<script type="text/javascript" src="node_modules/jquery/dist/jquery.js"></script>
+	<script type="text/javascript" src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="dist/js/script.min.js"></script>
+</body>
+</html>

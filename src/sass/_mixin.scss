@@ -1,0 +1,101 @@
+@mixin barraNav {
+	position: fixed;
+	z-index: 1;
+	background-color: $calipso;
+	width: 100%;
+	padding-bottom: 10px;
+}
+@mixin tituloSeccion {
+	font-size: 35px;
+	color: $calipso;
+	text-align: center;
+	font-family: $manuscrita;
+}
+@mixin imgPerfil {
+	border-radius: 50%;
+	width: 350px;
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+@mixin subtitulos {
+	font-family: $fuenteSecundaria;
+	font-weight: bold;
+	font-size: 30px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+@mixin textos {
+	font-family: $fuenteSecundaria;
+	font-size: 18px;
+}
+@mixin divAcordeon {
+	width: 100%;
+	max-width: 1080px;
+	height: $altoAcordeon;
+	overflow: hidden;
+	margin: 50px auto;
+}
+@mixin listaAcordeon {
+	width: 100%;
+	display: table;
+	table-layout: fixed;
+	margin: 0;
+	padding: 0;
+}
+@mixin elementoLista {
+	display: table-cell;
+	vertical-align: bottom;
+	position: relative;
+	width: 16.666%;
+	height: $altoAcordeon;
+	background-repeat: no-repeat;
+	background-position: center center;
+	transition: all 500ms ease;
+}
+@mixin divDeElemento {
+	display:block;
+	overflow:hidden;
+	width:100%;
+}
+@mixin enlaceDeElemento {
+	display: block;
+	height: $altoAcordeon;
+	width: 100%;
+	position: relative;
+	z-index: 3;
+	vertical-align: bottom;
+	padding: 15px 20px;
+	box-sizing: border-box;
+	color: $blanco;
+	text-decoration: none;
+	font-family: $fuenteSecundaria;
+	transition: all 200ms ease;
+}
+@mixin elementosDeEnlace {
+	opacity: 0;
+	margin: 0;
+	width: 100%;
+	text-overflow: ellipsis;
+	position: relative;
+	z-index: 5;
+	white-space: nowrap;
+	overflow: hidden;
+	-webkit-transform: translateX(-20px);
+	transform: translateX(-20px);
+	-webkit-transition: all 400ms ease;
+	transition: all 400ms ease;
+}
+@mixin tituloProyecto {
+	font-family: $fuenteSecundaria;
+	text-overflow: clip;
+	font-size: 25px;
+	margin-bottom: 2px;
+	top: $textOffset;
+}
+@mixin textoProyecto {
+	font-family: $fuenteSecundaria;
+	top: $textOffset;
+	font-size: 18px;
+}
