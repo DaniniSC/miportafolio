@@ -5,6 +5,10 @@
 	width: 100%;
 	padding-bottom: 10px;
 }
+@mixin paddingSecciones {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
 @mixin tituloSeccion {
 	font-size: 35px;
 	color: $calipso;

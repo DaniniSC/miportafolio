@@ -64,7 +64,7 @@ body .container-fluid {
 		}
 	}
 	#acercaDeMi {
-		padding-top: 100px;
+		@include paddingSecciones;
 		background-color: $agua;
 		.contenido-acercaDeMi {
 			padding-top: 40px;
@@ -92,7 +92,7 @@ body .container-fluid {
 		}
 	}
 	#skills {
-		padding-top: 100px;
+		@include paddingSecciones;
 		.div-img img {
 			height: 200px;
 			margin: 20px auto;
@@ -111,7 +111,8 @@ body .container-fluid {
 		}
 	}
 	#misProyectos {
-		padding-top: 100px;
+		@include paddingSecciones;
+		background-color: $celeste;
 		.acordeonProyectos {
 			@include divAcordeon;
 			ul {
@@ -170,7 +171,7 @@ body .container-fluid {
 		}
 	}
 	#contactame {
-		padding-top: 100px;
+		@include paddingSecciones;
 		.datosDeContacto {
 			text-align: center;
 			.nombre {
